@@ -97,9 +97,13 @@ const Hero = () => {
           <div className="flex-1 flex justify-center lg:justify-end">
             <div className="relative">
               {/* Main Image Container */}
-              <div className="relative w-96 h-96 bg-gradient-to-br from-purple-500 via-purple-600 to-orange-500 rounded-3xl p-1 shadow-2xl">
-                <div className="w-full h-full bg-white rounded-3xl flex items-center justify-center overflow-hidden">
-                  <div className="text-8xl">👨‍💻</div>
+              <div className="relative w-96 h-96 bg-gradient-to-br from-purple-500 via-purple-600 to-orange-500 rounded-full p-1 shadow-2xl">
+                <div className="w-full h-full bg-white rounded-full flex items-center justify-center overflow-hidden">
+                  <img 
+                    src="https://i.postimg.cc/FRr9QMVN/1000002317.jpg" 
+                    alt="Dipul Datheputhe" 
+                    className="w-full h-full object-cover rounded-full"
+                  />
                 </div>
               </div>
               
